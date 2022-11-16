@@ -1,0 +1,2 @@
+class RcCar < ApplicationRecord
+end

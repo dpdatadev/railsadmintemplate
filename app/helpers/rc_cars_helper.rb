@@ -1,0 +1,2 @@
+module RcCarsHelper
+end
