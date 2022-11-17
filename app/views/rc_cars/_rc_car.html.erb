@@ -24,4 +24,10 @@
     <%= rc_car.category %>
   </p>
 
+<% if rc_car.car_image.attached? %>
+  <p>
+    <strong>Image:</strong>
+    <%= image_tag rc_car.car_image.variant(resize_to_limit: [200, 200]) %>
+  </p>
+<% end %>
 </div>
